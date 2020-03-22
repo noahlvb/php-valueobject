@@ -1,5 +1,5 @@
 {
-    "name": "noahlvb/php-valueobject",
+    "name": "noahlvb/valueobject",
     "description": "A php library to bootstrap the use of Domain Driven Design valueObjects",
     "keywords": [
         "valueObjects",
@@ -26,9 +26,12 @@
             "Noahlvb\\ValueObject\\Tests\\": ["tests/"]
         }
     },
-    "require": {},
+    "require": {
+        "php": "^7.1"
+    },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
-        "phpunit/phpunit": "^9"
+        "phpunit/phpunit": "^9",
+        "squizlabs/php_codesniffer": "^3.5"
     }
 }
