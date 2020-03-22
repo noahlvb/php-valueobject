@@ -1,0 +1,33 @@
+{
+    "name": "noahlvb/php-valueobject",
+    "description": "A php library to bootstrap the use of Domain Driven Design valueObjects",
+    "keywords": [
+        "valueObjects",
+        "DDD",
+        "scalar type",
+        "values",
+        "OOP"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noah van Bochove",
+            "email": "mail@noahlvb.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Noahlvb\\ValueObject\\": ["src/"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Noahlvb\\ValueObject\\\\Tests\\": ["tests/"]
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    }
+}
