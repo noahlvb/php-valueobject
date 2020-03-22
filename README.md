@@ -14,6 +14,12 @@ With [composer](http://packagist.org), add:
 $ composer require noahlvb/valueobject
 ```
 
+Or if your using Symfony: [valueobject-bundle](https://github.com/noahlvb/php-valueobject-bundle)
+
+```bash
+$ composer require noahlvb/valueobject-bundle
+```
+
 Run Tests
 ---
 To make sure everything works you can run tests:
