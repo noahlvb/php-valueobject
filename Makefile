@@ -8,3 +8,12 @@ help:
 
 fix-code-style:
 	./vendor/bin/php-cs-fixer fix -v
+
+test:
+	$(MAKE) test-unit
+
+test-unit:
+	vendor/bin/phpunit --testsuite=unit
+
+test-coverage:
+	vendor/bin/phpunit --coverage-html=./coverage
