@@ -23,5 +23,8 @@ abstract class ValueObjectInteger extends ValueObject
         return $this->value;
     }
 
-    abstract protected function sanitize(int $value): int;
+    protected function sanitize(int $value): int
+    {
+        return $value;
+    }
 }

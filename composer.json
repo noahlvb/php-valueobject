@@ -23,11 +23,12 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Noahlvb\\ValueObject\\\\Tests\\": ["tests/"]
+            "Noahlvb\\ValueObject\\Tests\\": ["tests/"]
         }
     },
     "require": {},
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16"
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "phpunit/phpunit": "^9"
     }
 }
