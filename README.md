@@ -2,7 +2,6 @@
 A library to bootstrap the use of Domain Driven Design valueObjects
 
 ![CI](https://github.com/noahlvb/php-valueobject/workflows/CI/badge.svg?branch=master)
-[![codecov](https://codecov.io/gh/noahlvb/php-valueobject/branch/master/graph/badge.svg)](https://codecov.io/gh/noahlvb/php-valueobject)
 [![Latest Stable Version](https://poser.pugx.org/noahlvb/valueobject/v/stable)](https://packagist.org/packages/noahlvb/valueobject)
 [![License](https://poser.pugx.org/noahlvb/valueobject/license)](https://packagist.org/packages/noahlvb/valueobject)
 
